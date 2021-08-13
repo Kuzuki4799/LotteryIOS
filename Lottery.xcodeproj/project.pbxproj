@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F359F82426B2821A00ADFE9D /* LotteryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359F82326B2821A00ADFE9D /* LotteryApp.swift */; };
+		F359F82626B2821A00ADFE9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359F82526B2821A00ADFE9D /* ContentView.swift */; };
+		F359F82826B2821D00ADFE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F359F82726B2821D00ADFE9D /* Assets.xcassets */; };
+		F359F82B26B2821D00ADFE9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F359F82A26B2821D00ADFE9D /* Preview Assets.xcassets */; };
+		F359F83426B29A5300ADFE9D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359F83326B29A5300ADFE9D /* HomeScreen.swift */; };
+		F359F83826B29A8B00ADFE9D /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359F83726B29A8B00ADFE9D /* RegisterScreen.swift */; };
+		F359F83A26B29AAE00ADFE9D /* WebScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359F83926B29AAE00ADFE9D /* WebScreen.swift */; };
+		F359F83C26B29ABB00ADFE9D /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359F83B26B29ABB00ADFE9D /* SplashScreen.swift */; };
+		F359F83F26B2F22600ADFE9D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359F83E26B2F22600ADFE9D /* Extension.swift */; };
+		F35E94BF26B63234009FA945 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E94BE26B63234009FA945 /* RegisterViewModel.swift */; };
+		F37B974326B7050600C57B93 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37B974226B7050600C57B93 /* ContactModel.swift */; };
+		F3DEAF7A26B4EF1E006702A2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DEAF7926B4EF1E006702A2 /* HomeViewModel.swift */; };
+		F3DEAF7C26B4EF3F006702A2 /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DEAF7B26B4EF3F006702A2 /* LinkModel.swift */; };
+		F3DEAF7F26B4F964006702A2 /* LinkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DEAF7E26B4F964006702A2 /* LinkState.swift */; };
+		F3F38A1326B526D900F2A6CA /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F38A1226B526D900F2A6CA /* ShareSheet.swift */; };
+		F3F7FEB226B3B6A10024326F /* NavigationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F7FEB126B3B6A10024326F /* NavigationMenu.swift */; };
+		F3F7FEB426B3EA8B0024326F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F7FEB326B3EA8B0024326F /* WebView.swift */; };
+		F3F7FEB726B3EE8E0024326F /* MainState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F7FEB626B3EE8E0024326F /* MainState.swift */; };
+		F3F7FEB926B3FA2C0024326F /* MainAboutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F7FEB826B3FA2C0024326F /* MainAboutScreen.swift */; };
+		F3F7FEC026B458C00024326F /* CustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F7FEBF26B458C00024326F /* CustomerView.swift */; };
+		F3F7FEC326B463F20024326F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F3F7FEC226B463F20024326F /* FirebaseDatabase */; };
+		F3F7FEC526B465C30024326F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3F7FEC426B465C20024326F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F359F82026B2821A00ADFE9D /* Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F359F82326B2821A00ADFE9D /* LotteryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryApp.swift; sourceTree = "<group>"; };
+		F359F82526B2821A00ADFE9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F359F82726B2821D00ADFE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F359F82A26B2821D00ADFE9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F359F82C26B2821D00ADFE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F359F83326B29A5300ADFE9D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		F359F83726B29A8B00ADFE9D /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		F359F83926B29AAE00ADFE9D /* WebScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScreen.swift; sourceTree = "<group>"; };
+		F359F83B26B29ABB00ADFE9D /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		F359F83E26B2F22600ADFE9D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		F35E94BE26B63234009FA945 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		F37B974226B7050600C57B93 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		F3DEAF7926B4EF1E006702A2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F3DEAF7B26B4EF3F006702A2 /* LinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
+		F3DEAF7E26B4F964006702A2 /* LinkState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkState.swift; sourceTree = "<group>"; };
+		F3F38A1226B526D900F2A6CA /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		F3F7FEB126B3B6A10024326F /* NavigationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMenu.swift; sourceTree = "<group>"; };
+		F3F7FEB326B3EA8B0024326F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F3F7FEB626B3EE8E0024326F /* MainState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainState.swift; sourceTree = "<group>"; };
+		F3F7FEB826B3FA2C0024326F /* MainAboutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAboutScreen.swift; sourceTree = "<group>"; };
+		F3F7FEBF26B458C00024326F /* CustomerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerView.swift; sourceTree = "<group>"; };
+		F3F7FEC426B465C20024326F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F359F81D26B2821A00ADFE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F7FEC326B463F20024326F /* FirebaseDatabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F359F81726B2821A00ADFE9D = {
+			isa = PBXGroup;
+			children = (
+				F359F82226B2821A00ADFE9D /* Lottery */,
+				F359F82126B2821A00ADFE9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F359F82126B2821A00ADFE9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F359F82026B2821A00ADFE9D /* Lottery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F359F82226B2821A00ADFE9D /* Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				F3DEAF7D26B4F957006702A2 /* State */,
+				F3DEAF7826B4EF10006702A2 /* ViewModel */,
+				F3F7FEC426B465C20024326F /* GoogleService-Info.plist */,
+				F3F7FEBA26B40BCB0024326F /* Navigation */,
+				F3F7FEB526B3EE7D0024326F /* Model */,
+				F359F83D26B2F21300ADFE9D /* Utils */,
+				F359F83226B29A4700ADFE9D /* View */,
+				F359F82326B2821A00ADFE9D /* LotteryApp.swift */,
+				F359F82526B2821A00ADFE9D /* ContentView.swift */,
+				F359F82726B2821D00ADFE9D /* Assets.xcassets */,
+				F359F82C26B2821D00ADFE9D /* Info.plist */,
+				F359F82926B2821D00ADFE9D /* Preview Content */,
+			);
+			path = Lottery;
+			sourceTree = "<group>";
+		};
+		F359F82926B2821D00ADFE9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F359F82A26B2821D00ADFE9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F359F83226B29A4700ADFE9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F359F83326B29A5300ADFE9D /* HomeScreen.swift */,
+				F359F83726B29A8B00ADFE9D /* RegisterScreen.swift */,
+				F359F83926B29AAE00ADFE9D /* WebScreen.swift */,
+				F359F83B26B29ABB00ADFE9D /* SplashScreen.swift */,
+				F3F7FEB826B3FA2C0024326F /* MainAboutScreen.swift */,
+				F3F7FEBF26B458C00024326F /* CustomerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F359F83D26B2F21300ADFE9D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F3F7FEB326B3EA8B0024326F /* WebView.swift */,
+				F359F83E26B2F22600ADFE9D /* Extension.swift */,
+				F3F38A1226B526D900F2A6CA /* ShareSheet.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F3DEAF7826B4EF10006702A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F3DEAF7926B4EF1E006702A2 /* HomeViewModel.swift */,
+				F35E94BE26B63234009FA945 /* RegisterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3DEAF7D26B4F957006702A2 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				F3F7FEB626B3EE8E0024326F /* MainState.swift */,
+				F3DEAF7E26B4F964006702A2 /* LinkState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		F3F7FEB526B3EE7D0024326F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3DEAF7B26B4EF3F006702A2 /* LinkModel.swift */,
+				F37B974226B7050600C57B93 /* ContactModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3F7FEBA26B40BCB0024326F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F3F7FEB126B3B6A10024326F /* NavigationMenu.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F359F81F26B2821A00ADFE9D /* Lottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F359F82F26B2821D00ADFE9D /* Build configuration list for PBXNativeTarget "Lottery" */;
+			buildPhases = (
+				F359F81C26B2821A00ADFE9D /* Sources */,
+				F359F81D26B2821A00ADFE9D /* Frameworks */,
+				F359F81E26B2821A00ADFE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lottery;
+			packageProductDependencies = (
+				F3F7FEC226B463F20024326F /* FirebaseDatabase */,
+			);
+			productName = Lottery;
+			productReference = F359F82026B2821A00ADFE9D /* Lottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F359F81826B2821A00ADFE9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F359F81F26B2821A00ADFE9D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F359F81B26B2821A00ADFE9D /* Build configuration list for PBXProject "Lottery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F359F81726B2821A00ADFE9D;
+			packageReferences = (
+				F3F7FEC126B463F20024326F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F359F82126B2821A00ADFE9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F359F81F26B2821A00ADFE9D /* Lottery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F359F81E26B2821A00ADFE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F359F82B26B2821D00ADFE9D /* Preview Assets.xcassets in Resources */,
+				F359F82826B2821D00ADFE9D /* Assets.xcassets in Resources */,
+				F3F7FEC526B465C30024326F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F359F81C26B2821A00ADFE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F7FEB926B3FA2C0024326F /* MainAboutScreen.swift in Sources */,
+				F3F7FEB726B3EE8E0024326F /* MainState.swift in Sources */,
+				F37B974326B7050600C57B93 /* ContactModel.swift in Sources */,
+				F359F83826B29A8B00ADFE9D /* RegisterScreen.swift in Sources */,
+				F3F38A1326B526D900F2A6CA /* ShareSheet.swift in Sources */,
+				F3F7FEB426B3EA8B0024326F /* WebView.swift in Sources */,
+				F359F83C26B29ABB00ADFE9D /* SplashScreen.swift in Sources */,
+				F3F7FEC026B458C00024326F /* CustomerView.swift in Sources */,
+				F359F83426B29A5300ADFE9D /* HomeScreen.swift in Sources */,
+				F359F82626B2821A00ADFE9D /* ContentView.swift in Sources */,
+				F35E94BF26B63234009FA945 /* RegisterViewModel.swift in Sources */,
+				F3DEAF7F26B4F964006702A2 /* LinkState.swift in Sources */,
+				F3DEAF7C26B4EF3F006702A2 /* LinkModel.swift in Sources */,
+				F3DEAF7A26B4EF1E006702A2 /* HomeViewModel.swift in Sources */,
+				F359F83A26B29AAE00ADFE9D /* WebScreen.swift in Sources */,
+				F3F7FEB226B3B6A10024326F /* NavigationMenu.swift in Sources */,
+				F359F82426B2821A00ADFE9D /* LotteryApp.swift in Sources */,
+				F359F83F26B2F22600ADFE9D /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F359F82D26B2821D00ADFE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F359F82E26B2821D00ADFE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F359F83026B2821D00ADFE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lottery/Preview Content\"";
+				DEVELOPMENT_TEAM = THD3V4D3FV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lottery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thent.tutorial.Lottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F359F83126B2821D00ADFE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lottery/Preview Content\"";
+				DEVELOPMENT_TEAM = THD3V4D3FV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lottery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thent.tutorial.Lottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F359F81B26B2821A00ADFE9D /* Build configuration list for PBXProject "Lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F359F82D26B2821D00ADFE9D /* Debug */,
+				F359F82E26B2821D00ADFE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F359F82F26B2821D00ADFE9D /* Build configuration list for PBXNativeTarget "Lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F359F83026B2821D00ADFE9D /* Debug */,
+				F359F83126B2821D00ADFE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3F7FEC126B463F20024326F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3F7FEC226B463F20024326F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3F7FEC126B463F20024326F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F359F81826B2821A00ADFE9D /* Project object */;
+}
